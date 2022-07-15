@@ -1,0 +1,6 @@
+framework module DiscussionSDK {
+  umbrella header "DiscussionSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
