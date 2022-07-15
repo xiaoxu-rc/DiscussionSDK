@@ -1,10 +1,12 @@
+source 'https://github.com/xiaoxu-rc/MultiSDKSpec.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
 
 platform :ios, '10.0'
 
 target 'DiscussionSDK_Example' do
   pod 'DiscussionSDK', :path => '../'
-  pod 'IMLibCore', :path => '../../IMLibCore'
 
   target 'DiscussionSDK_Tests' do
     inherit! :search_paths

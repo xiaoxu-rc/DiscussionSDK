@@ -28,9 +28,10 @@ PODS:
 DEPENDENCIES:
   - DiscussionSDK (from `../`)
   - FBSnapshotTestCase
-  - IMLibCore (from `../../IMLibCore`)
 
 SPEC REPOS:
+  https://github.com/xiaoxu-rc/MultiSDKSpec.git:
+    - IMLibCore
   trunk:
     - AFNetworking
     - FBSnapshotTestCase
@@ -38,15 +39,13 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   DiscussionSDK:
     :path: "../"
-  IMLibCore:
-    :path: "../../IMLibCore"
 
 SPEC CHECKSUMS:
   AFNetworking: 932ff751f9d6fb1dad0b3af58b7e3ffba0a4e7fd
   DiscussionSDK: 5990b8cf28dca44a3306a4311039b815dfece018
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  IMLibCore: 2b108891d7c34977a638eca533fc7517f6c4fb26
+  IMLibCore: a68c1e99c2da00a3a411e72210faf0ccb67b220d
 
-PODFILE CHECKSUM: 076a368542b2bcefb9328a4ff32503aafd0c8e6e
+PODFILE CHECKSUM: 95ef1d9c967b5a487ead769eb7208b4440231ea8
 
 COCOAPODS: 1.11.3
