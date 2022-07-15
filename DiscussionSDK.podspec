@@ -32,11 +32,13 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'DiscussionSDK/Classes/**/*'
   
-   s.resource_bundles = {
-     'DiscussionSDK' => ['DiscussionSDK/Assets/*.png']
-   }
+#   s.resource_bundles = {
+#     'DiscussionSDK' => ['DiscussionSDK/Assets/*.png']
+#   }
 
    s.public_header_files = 'DiscussionSDK/Classes/**/*.h'
    s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'AFNetworking', '3.0'
+   s.dependency 'AFNetworking', '3.0.0'
+   s.dependency 'IMLibCore', '0.2.0'
+   
 end
