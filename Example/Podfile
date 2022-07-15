@@ -4,6 +4,7 @@ platform :ios, '10.0'
 
 target 'DiscussionSDK_Example' do
   pod 'DiscussionSDK', :path => '../'
+  pod 'IMLibCore', :path => '../../IMLibCore'
 
   target 'DiscussionSDK_Tests' do
     inherit! :search_paths
